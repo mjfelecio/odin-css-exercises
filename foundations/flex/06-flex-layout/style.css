@@ -33,3 +33,23 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+li {
+  list-style: none;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 16px;
+}
