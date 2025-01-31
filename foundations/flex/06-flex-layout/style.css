@@ -46,10 +46,19 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 12px;
 }
 
 .left-links, .right-links {
   display: flex;
   gap: 16px;
+}
+
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: rgb(238, 236, 236);
 }
